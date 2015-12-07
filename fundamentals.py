@@ -15,3 +15,8 @@ def defaultGreeting():
 
 defaultGreeting()
 
+def printMe(me, andMe=""):
+    print "%s %s" % (me, andMe)
+
+printMe("this")
+printMe("this", "that")
