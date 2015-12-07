@@ -52,7 +52,7 @@ while value < 10:
     b = value
 
 # fast enumeration
-print " fast enumeration"
+print "fast enumeration"
 for n in range(10):
     print n
 
