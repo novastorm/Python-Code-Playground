@@ -2,13 +2,13 @@
 
 print "Hello World."
 
-title = "Fundamentals"
+aVariableContainer = "a variable"
 
-print "Examples of %s" % title
+print "Examples of %s" % aVariableContainer
 
-name = raw_input("Your name: ")
+aName = raw_input("Your name: ")
 
-print "Greetings, %s" % name
+print "Greetings, %s" % aName
 
 def defaultGreeting():
     print "A default greeting"
