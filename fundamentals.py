@@ -40,7 +40,19 @@ else:
 
 # iterators
 
+# while loop
+print "while loop"
+a = 0
+b = 1
+value = b
+while value < 10:
+    print value
+    value = a + b
+    a = b
+    b = value
+
 # fast enumeration
+print " fast enumeration"
 for n in range(10):
     print n
 
