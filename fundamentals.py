@@ -6,6 +6,9 @@ print "Hello World."
 # variable assignment
 aVariableContainer = "a variable"
 
+# magic numbers
+maxValue = 10
+
 # variable usage
 print "Examples of %s" % aVariableContainer
 
@@ -45,7 +48,7 @@ print "while loop"
 a = 0
 b = 1
 value = b
-while value < 10:
+while value < maxValue:
     print value
     value = a + b
     a = b
@@ -53,6 +56,6 @@ while value < 10:
 
 # fast enumeration
 print "fast enumeration"
-for n in range(10):
+for n in range(maxValue):
     print n
 
