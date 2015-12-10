@@ -59,3 +59,4 @@ print "fast enumeration"
 for n in range(maxValue):
     print n
 
+# break, continue, else
